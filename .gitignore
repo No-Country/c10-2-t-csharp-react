@@ -2,6 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-Backend/KeyZone.WebApi/appsettings.json
+Backend/KeyZone/KeyZone.WebApi/appsettings.json
 Backend/.vs
 .vs
