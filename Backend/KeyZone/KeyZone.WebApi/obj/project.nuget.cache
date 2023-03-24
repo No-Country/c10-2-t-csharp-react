@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "8/kjsGu5OX73myE2YeLwP/p/aahfDGzVamSSTovCNfCALMHzeIupqEcxtGgjjpX+8tTpVVmpCIfU9IpzJncO1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mwmac\\OneDrive\\Escritorio\\NoCountry_C10_2\\Backend\\KeyZone\\KeyZone.WebApi\\KeyZone.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mwmac\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+    "C:\\Users\\mwmac\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mwmac\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\mwmac\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\mwmac\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\mwmac\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\mwmac\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
