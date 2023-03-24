@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i8Ha+bdyC1MKSIyHPJdkE+yF4EUFIF0axrkAYSgEHdk=",
+  "Source": "KeyZone.WebApi",
+  "BasePath": "_content/KeyZone.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
