@@ -1,0 +1,12 @@
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\bin\Debug\net7.0\KeyZone.Models.deps.json
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\bin\Debug\net7.0\KeyZone.Models.dll
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\bin\Debug\net7.0\KeyZone.Models.pdb
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.csproj.AssemblyReference.cache
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.AssemblyInfoInputs.cache
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.AssemblyInfo.cs
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.csproj.CoreCompileInputs.cache
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.dll
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\refint\KeyZone.Models.dll
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\KeyZone.Models.pdb
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Models\obj\Debug\net7.0\ref\KeyZone.Models.dll

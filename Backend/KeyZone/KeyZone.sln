@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyZone.WebApi", "KeyZone.WebApi\KeyZone.WebApi.csproj", "{F83DAFDC-0085-4340-A847-C38B1AC05DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyZone.WebApi", "KeyZone.WebApi\KeyZone.WebApi.csproj", "{F83DAFDC-0085-4340-A847-C38B1AC05DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyZone.DataAccess", "KeyZone.DataAccess\KeyZone.DataAccess.csproj", "{38149497-B596-4D50-9E94-3DD8D51E454E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyZone.Models", "KeyZone.Models\KeyZone.Models.csproj", "{0933EBF4-4E07-487D-B5D9-CAD9D69CBF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyZone.Services", "KeyZone.Services\KeyZone.Services.csproj", "{F281937F-7C0F-48A6-8275-B6E90DDCA7BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{F83DAFDC-0085-4340-A847-C38B1AC05DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F83DAFDC-0085-4340-A847-C38B1AC05DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F83DAFDC-0085-4340-A847-C38B1AC05DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38149497-B596-4D50-9E94-3DD8D51E454E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38149497-B596-4D50-9E94-3DD8D51E454E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38149497-B596-4D50-9E94-3DD8D51E454E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38149497-B596-4D50-9E94-3DD8D51E454E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0933EBF4-4E07-487D-B5D9-CAD9D69CBF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0933EBF4-4E07-487D-B5D9-CAD9D69CBF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0933EBF4-4E07-487D-B5D9-CAD9D69CBF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0933EBF4-4E07-487D-B5D9-CAD9D69CBF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F281937F-7C0F-48A6-8275-B6E90DDCA7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F281937F-7C0F-48A6-8275-B6E90DDCA7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F281937F-7C0F-48A6-8275-B6E90DDCA7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F281937F-7C0F-48A6-8275-B6E90DDCA7BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
