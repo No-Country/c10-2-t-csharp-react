@@ -1,11 +1,16 @@
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.Services.deps.json
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.Services.dll
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.Services.pdb
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.DataAccess.dll
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.Models.dll
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.DataAccess.pdb
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\bin\Debug\net7.0\KeyZone.Models.pdb
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.csproj.AssemblyReference.cache
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.AssemblyInfoInputs.cache
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.AssemblyInfo.cs
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.csproj.CoreCompileInputs.cache
+C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.csproj.CopyComplete
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.dll
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\refint\KeyZone.Services.dll
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.Services\obj\Debug\net7.0\KeyZone.Services.pdb
