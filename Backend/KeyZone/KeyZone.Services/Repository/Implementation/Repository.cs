@@ -1,5 +1,4 @@
 ﻿using KeyZone.DataAccess;
-using KeyZone.Services.MethodsStaticAsync;
 using KeyZone.Services.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;

@@ -1,5 +1,4 @@
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\bin\Debug\net7.0\KeyZone.DataAccess.deps.json
-C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\bin\Debug\net7.0\KeyZone.DataAccess.runtimeconfig.json
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\bin\Debug\net7.0\KeyZone.DataAccess.dll
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\bin\Debug\net7.0\KeyZone.DataAccess.pdb
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\bin\Debug\net7.0\KeyZone.Models.dll
@@ -13,5 +12,4 @@ C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataA
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\obj\Debug\net7.0\KeyZone.DataAccess.dll
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\obj\Debug\net7.0\refint\KeyZone.DataAccess.dll
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\obj\Debug\net7.0\KeyZone.DataAccess.pdb
-C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\obj\Debug\net7.0\KeyZone.DataAccess.genruntimeconfig.cache
 C:\Users\mwmac\OneDrive\Escritorio\NoCountry_C10_2\Backend\KeyZone\KeyZone.DataAccess\obj\Debug\net7.0\ref\KeyZone.DataAccess.dll

@@ -45,7 +45,7 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[7.0.4, )"
             }
