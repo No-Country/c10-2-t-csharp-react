@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace KeyZone.Models
+namespace KeyZone.Models.DataModels
 {
     public class UserAplication :IdentityUser
     {
