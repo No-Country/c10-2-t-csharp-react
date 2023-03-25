@@ -4,6 +4,7 @@ using KeyZone.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KeyZone.DataAccess.Migrations
 {
     [DbContext(typeof(KeyZoneDbContext))]
-    partial class KeyZoneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230325211650_addModelsKeysAndInventory")]
+    partial class addModelsKeysAndInventory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
