@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ririi13WMCYFzSjt7CTGTPdMuv4ChcdkyBpEiccA4dLAVC8obczJlUUajKK8ZoBevxc8JWKEH7aTxn9k2RDdrw==",
+  "dgSpecHash": "6f5D8UvhO3nkeAy7neuu9QRjih4VYxc0VNdubPAD4ZMpYKxrlt7OFYgAajMF0Gqxl9SdXAATLYwaHBp8u2hXdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mwmac\\OneDrive\\Escritorio\\NoCountry_C10_2\\Backend\\KeyZone\\KeyZone.WebApi\\KeyZone.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\mwmac\\OneDrive\\Escritorio\\NoCountry_C10_2\\c10-2-t-csharp-react\\Backend\\KeyZone\\KeyZone.WebApi\\KeyZone.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mwmac\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mwmac\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

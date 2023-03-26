@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UndCSfSoY/OZoike2uF4tS5+JlCItfbTZc3bbP0p0QXbI9RXUh3Qkh81o8snYzD9cU3U9Lp47Y1XFKyfgDoB+A==",
+  "dgSpecHash": "cGsPRHIXLLj2kNPaGfx+e3hvp68cPAXkM0OtqBIVoIcq2ThPQ8VZ9yS6MozBgRKsp5ISFaglpIbpIw6qtIc7WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mwmac\\OneDrive\\Escritorio\\NoCountry_C10_2\\Backend\\KeyZone\\KeyZone.Models\\KeyZone.Models.csproj",
+  "projectFilePath": "C:\\Users\\mwmac\\OneDrive\\Escritorio\\NoCountry_C10_2\\c10-2-t-csharp-react\\Backend\\KeyZone\\KeyZone.Models\\KeyZone.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mwmac\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.4\\microsoft.aspnetcore.cryptography.internal.7.0.4.nupkg.sha512",
     "C:\\Users\\mwmac\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.4\\microsoft.aspnetcore.cryptography.keyderivation.7.0.4.nupkg.sha512",
