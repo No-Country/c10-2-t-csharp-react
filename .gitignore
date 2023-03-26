@@ -4,5 +4,6 @@
 
 ./Backend/KeyZone/KeyZone.WebApi/appsettings.json
 Backend/KeyZone/KeyZone.WebApi/appsettings.json
+obj
 Backend/.vs
 .vs
