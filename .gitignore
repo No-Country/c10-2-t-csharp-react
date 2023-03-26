@@ -4,6 +4,20 @@
 
 ./Backend/KeyZone/KeyZone.WebApi/appsettings.json
 Backend/KeyZone/KeyZone.WebApi/appsettings.json
+
+
+./Backend/KeyZone/KeyZone.WebApi/obj
+./Backend/KeyZone/KeyZone.WebApi/bin
+
+./Backend/KeyZone/KeyZone.Models/obj
+./Backend/KeyZone/KeyZone.Models/bin
+
+./Backend/KeyZone/KeyZone.Services/obj
+./Backend/KeyZone/KeyZone.Services/bin
+
+./Backend/KeyZone/KeyZone.DataAccess/obj
+./Backend/KeyZone/KeyZone.DataAccess/bin
+
 **/obj
 **/bin
 **/.vs/
