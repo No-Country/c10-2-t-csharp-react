@@ -18,11 +18,12 @@ namespace KeyZone.Models.DataModels
         public double Price { get; set; }
         [Required]
         public bool Sold { get; set; }
+
         [Required]
         public int PlatformId { get; set; }
-
         [ForeignKey("PlatformId")]
         public Platform Platform { get; set; }
+
         [Required]
         public int GameId { get; set; }
 

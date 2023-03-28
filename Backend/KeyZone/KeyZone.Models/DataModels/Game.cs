@@ -16,13 +16,13 @@ namespace KeyZone.Models.DataModels
         [MaxLength(50)]
         public string Name { get; set; }
 
-        public int Description { get; set; }
+        public string Description { get; set; }
         [Required]
         public string Img { get; set; }
         [Required]
         public DateTime ReleaseDate { get; set; }
 
-        public List<Platform> Platform { get; set; }
+        public List<Inventory> Inventory { get; set; }
 
         public string Developer { get; set; }
 
@@ -30,11 +30,9 @@ namespace KeyZone.Models.DataModels
         public int RequiremensPCId { get; set; }
         [ForeignKey("RequiremensPCId")]
         public RequirementsPC RequirementsPC { get; set; }
-        [Required]
-        public int CategoryId { get; set; }
 
-        [ForeignKey("CategoryId")]
-        public List<Category> Category { get; set; }
+        [Required]
+        public List<GameCategory> GameCategory { get; set; }
 
 
     }
