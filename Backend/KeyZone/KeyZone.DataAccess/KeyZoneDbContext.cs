@@ -14,8 +14,10 @@ namespace KeyZone.DataAccess
         public DbSet<Platform> Platforms { get; set; }
         public DbSet<KeyGame> Keys { get; set; }
         public DbSet<Category> Categories { get; set; }
-
-
+        public DbSet<GameCategory> GameCategories { get; set; }
 
     }
+
+
+
 }

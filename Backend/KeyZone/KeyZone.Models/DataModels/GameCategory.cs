@@ -8,21 +8,19 @@ using System.Threading.Tasks;
 
 namespace KeyZone.Models.DataModels
 {
-    public class Inventory
+    public class GameCategory
     {
         [Key]
         public int Id { get; set; }
-
-        public int PlatformId { get; set; }
-
-        [ForeignKey("PlatformId")]
-        public Platform Platform { get; set; }
 
         public int GameId { get; set; }
 
         [ForeignKey("GameId")]
         public Game Game { get; set; }
+        public int CategoryId { get; set; }
 
-        public int Stock { get; set; }
+        [ForeignKey("CategoryId")]
+        public Category Category { get; set; }
+
     }
 }

@@ -30,17 +30,12 @@ namespace KeyZone.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CategoryId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
 
                     b.ToTable("Categories");
                 });
@@ -53,11 +48,9 @@ namespace KeyZone.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Description")
-                        .HasColumnType("int");
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Developer")
                         .IsRequired()
@@ -83,6 +76,29 @@ namespace KeyZone.DataAccess.Migrations
                     b.HasIndex("RequiremensPCId");
 
                     b.ToTable("Games");
+                });
+
+            modelBuilder.Entity("KeyZone.Models.DataModels.GameCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GameId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("GameId");
+
+                    b.ToTable("GameCategories");
                 });
 
             modelBuilder.Entity("KeyZone.Models.DataModels.Inventory", b =>
@@ -151,17 +167,12 @@ namespace KeyZone.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("GameId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("GameId");
 
                     b.ToTable("Platforms");
                 });
@@ -446,13 +457,6 @@ namespace KeyZone.DataAccess.Migrations
                     b.HasDiscriminator().HasValue("UserAplication");
                 });
 
-            modelBuilder.Entity("KeyZone.Models.DataModels.Category", b =>
-                {
-                    b.HasOne("KeyZone.Models.DataModels.Game", null)
-                        .WithMany("Category")
-                        .HasForeignKey("CategoryId");
-                });
-
             modelBuilder.Entity("KeyZone.Models.DataModels.Game", b =>
                 {
                     b.HasOne("KeyZone.Models.DataModels.RequirementsPC", "RequirementsPC")
@@ -464,16 +468,35 @@ namespace KeyZone.DataAccess.Migrations
                     b.Navigation("RequirementsPC");
                 });
 
+            modelBuilder.Entity("KeyZone.Models.DataModels.GameCategory", b =>
+                {
+                    b.HasOne("KeyZone.Models.DataModels.Category", "Category")
+                        .WithMany("GameCategory")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("KeyZone.Models.DataModels.Game", "Game")
+                        .WithMany("GameCategory")
+                        .HasForeignKey("GameId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Game");
+                });
+
             modelBuilder.Entity("KeyZone.Models.DataModels.Inventory", b =>
                 {
                     b.HasOne("KeyZone.Models.DataModels.Game", "Game")
-                        .WithMany()
+                        .WithMany("Inventory")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("KeyZone.Models.DataModels.Platform", "Platform")
-                        .WithMany()
+                        .WithMany("Inventory")
                         .HasForeignKey("PlatformId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -500,13 +523,6 @@ namespace KeyZone.DataAccess.Migrations
                     b.Navigation("Game");
 
                     b.Navigation("Platform");
-                });
-
-            modelBuilder.Entity("KeyZone.Models.DataModels.Platform", b =>
-                {
-                    b.HasOne("KeyZone.Models.DataModels.Game", null)
-                        .WithMany("Platform")
-                        .HasForeignKey("GameId");
                 });
 
             modelBuilder.Entity("KeyZone.Models.DataModels.SO", b =>
@@ -567,11 +583,21 @@ namespace KeyZone.DataAccess.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("KeyZone.Models.DataModels.Category", b =>
+                {
+                    b.Navigation("GameCategory");
+                });
+
             modelBuilder.Entity("KeyZone.Models.DataModels.Game", b =>
                 {
-                    b.Navigation("Category");
+                    b.Navigation("GameCategory");
 
-                    b.Navigation("Platform");
+                    b.Navigation("Inventory");
+                });
+
+            modelBuilder.Entity("KeyZone.Models.DataModels.Platform", b =>
+                {
+                    b.Navigation("Inventory");
                 });
 
             modelBuilder.Entity("KeyZone.Models.DataModels.RequirementsPC", b =>
