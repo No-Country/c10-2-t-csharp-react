@@ -4,7 +4,7 @@
 
 ./Backend/KeyZone/KeyZone.WebApi/appsettings.json
 Backend/KeyZone/KeyZone.WebApi/appsettings.json
-
+**/appsettings.json
 
 ./Backend/KeyZone/KeyZone.WebApi/obj
 ./Backend/KeyZone/KeyZone.WebApi/bin
