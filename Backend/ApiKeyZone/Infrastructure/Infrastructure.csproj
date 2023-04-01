@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230330065949_Initial migration2.cs" />
+    <Compile Remove="Migrations\20230330065949_Initial migration2.Designer.cs" />
+    <Compile Remove="Migrations\20230330083608_Initial migration.cs" />
+    <Compile Remove="Migrations\20230330083608_Initial migration.Designer.cs" />
+    <Compile Remove="Migrations\20230330083733_Initial migration.cs" />
+    <Compile Remove="Migrations\20230330083733_Initial migration.Designer.cs" />
+    <Compile Remove="Migrations\20230330192705_initial.cs" />
+    <Compile Remove="Migrations\20230330192705_initial.Designer.cs" />
+    <Compile Remove="Migrations\20230330193937_initial.cs" />
+    <Compile Remove="Migrations\20230330193937_initial.Designer.cs" />
+    <Compile Remove="Migrations\20230330201409_initial.cs" />
+    <Compile Remove="Migrations\20230330201409_initial.Designer.cs" />
+    <Compile Remove="Migrations\20230331073526_initial.cs" />
+    <Compile Remove="Migrations\20230331073526_initial.Designer.cs" />
+    <Compile Remove="Migrations\20230331074807_initial.cs" />
+    <Compile Remove="Migrations\20230331074807_initial.Designer.cs" />
+    <Compile Remove="Migrations\20230331075312_initial.cs" />
+    <Compile Remove="Migrations\20230331075312_initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\SeedData\" />
+  </ItemGroup>
+
+</Project>

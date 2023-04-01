@@ -1,0 +1,52 @@
+[
+  {
+    "SO": "Windows 11",
+    "Procesador": "AMD Ryzen 9 5900X",
+    "Memoria": "32 GB RAM",
+    "Graficos": "NVIDIA GeForce RTX 3080",
+    "Almacenamiento": "1 TB NVMe SSD",
+    "Directx": "Versión 12",
+    "Red": "Conexión a Internet de alta velocidad",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1920x1080"
+  },
+  {
+    "SO": "macOS Big Sur",
+    "Procesador": "Apple M1",
+    "Memoria": "16 GB RAM",
+    "Graficos": "Apple M1 GPU",
+    "Almacenamiento": "512 GB SSD",
+    "Directx": "No aplicable",
+    "Red": "Conexión a Internet de alta velocidad",
+    "Notas": "Se requiere una resolución de pantalla mínima de 2560x1600"
+  },
+  {
+    "SO": "Ubuntu 21.10",
+    "Procesador": "Intel Core i7-11700K",
+    "Memoria": "64 GB RAM",
+    "Graficos": "NVIDIA GeForce RTX 3070",
+    "Almacenamiento": "2 TB SSD",
+    "Directx": "No aplicable",
+    "Red": "Conexión a Internet de alta velocidad",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1920x1080"
+  },
+  {
+    "SO": "Windows 10",
+    "Procesador": "Intel Core i9-11900K",
+    "Memoria": "32 GB RAM",
+    "Graficos": "AMD Radeon RX 6900 XT",
+    "Almacenamiento": "2 TB NVMe SSD",
+    "Directx": "Versión 12",
+    "Red": "Conexión a Internet de alta velocidad",
+    "Notas": "Se requiere una resolución de pantalla mínima de 2560x1440"
+  },
+  {
+    "SO": "macOS Monterey",
+    "Procesador": "Intel Core i5-11600K",
+    "Memoria": "16 GB RAM",
+    "Graficos": "NVIDIA GeForce GTX 1660",
+    "Almacenamiento": "512 GB SSD",
+    "Directx": "No aplicable",
+    "Red": "Conexión a Internet de alta velocidad",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1920x1080"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "SO": "Windows 10",
+    "Procesador": "Intel Core i5-8250U",
+    "Memoria": "8 GB RAM",
+    "Graficos": "NVIDIA GeForce MX150",
+    "Almacenamiento": "256 GB SSD",
+    "Directx": "Versión 11",
+    "Red": "Conexión a Internet de banda ancha",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1280x720"
+  },
+  {
+    "SO": "macOS Catalina",
+    "Procesador": "Intel Core i7-9750H",
+    "Memoria": "16 GB RAM",
+    "Graficos": "AMD Radeon Pro 5500M",
+    "Almacenamiento": "512 GB SSD",
+    "Directx": "No aplicable",
+    "Red": "Conexión a Internet de banda ancha",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1440x900"
+  },
+  {
+    "SO": "Ubuntu 20.04 LTS",
+    "Procesador": "AMD Ryzen 5 3600",
+    "Memoria": "16 GB RAM",
+    "Graficos": "NVIDIA GeForce GTX 1650",
+    "Almacenamiento": "1 TB HDD",
+    "Directx": "No aplicable",
+    "Red": "Conexión a Internet de banda ancha",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1366x768"
+  },
+  {
+    "SO": "Windows 7 SP1",
+    "Procesador": "Intel Core i3-7100",
+    "Memoria": "4 GB RAM",
+    "Graficos": "Intel HD Graphics 630",
+    "Almacenamiento": "128 GB SSD",
+    "Directx": "Versión 11",
+    "Red": "Conexión a Internet de banda ancha",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1024x768"
+  },
+  {
+    "SO": "macOS Mojave",
+    "Procesador": "Intel Core i5-8257U",
+    "Memoria": "8 GB RAM",
+    "Graficos": "Intel Iris Plus Graphics 645",
+    "Almacenamiento": "256 GB SSD",
+    "Directx": "No aplicable",
+    "Red": "Conexión a Internet de banda ancha",
+    "Notas": "Se requiere una resolución de pantalla mínima de 1280x800"
+  }
+]

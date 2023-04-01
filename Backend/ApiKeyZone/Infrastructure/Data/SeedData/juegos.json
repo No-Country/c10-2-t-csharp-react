@@ -1,0 +1,52 @@
+[
+  {
+    "Nombre": "FIFA 22",
+    "Descripcion": "Juego de simulación de fútbol",
+    "Imagen": "fifa-22.jpg",
+    "FechaLanzamiento": "2021-10-01",
+    "Desarrollador": "EA Sports",
+    "RequisitosMinId": 1,
+    "RequisitosRecId": 1
+  },
+
+  {
+    "Nombre": "Assassin's Creed Valhalla",
+    "Descripcion": "Juego de aventura y acción",
+    "Imagen": "assassins-creed-valhalla.jpg",
+    "FechaLanzamiento": "2020-11-10",
+    "Desarrollador": "Ubisoft Montreal",
+    "RequisitosMinId": 2,
+    "RequisitosRecId": 2
+  },
+
+  {
+    "Nombre": "Cyberpunk 2077",
+    "Descripcion": "Juego de rol de acción",
+    "Imagen": "cyberpunk-2077.jpg",
+    "FechaLanzamiento": "2020-12-10",
+    "Desarrollador": "CD Projekt Red",
+    "RequisitosMinId": 3,
+    "RequisitosRecId": 3
+  },
+
+  {
+    "Nombre": "Call of Duty Warzone",
+    "Descripcion": "Juego de disparos en línea",
+    "Imagen": "call-of-duty-warzone.jpg",
+    "FechaLanzamiento": "2020-03-10",
+    "Desarrollador": "Infinity Ward",
+    "RequisitosMinId": 4,
+    "RequisitosRecId": 4
+  },
+
+  {
+    "Nombre": "Red Dead Redemption 2",
+    "Descripcion": "Juego de aventura en mundo abierto",
+    "Imagen": "red-dead-redemption-2.jpg",
+    "FechaLanzamiento": "2018-10-26",
+
+    "Desarrollador": "Rockstar Studios",
+    "RequisitosMinId": 5,
+    "RequisitosRecId": 5
+  }
+]
